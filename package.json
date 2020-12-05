@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --env development",
-    "format": "prettier --write './**/*.{js,md,ts,tsx,jsx}'",
+    "test": "npm run verify",
     "lint": "eslint --cache --ext './**/*.{js,ts,tsx,jsx}' --format=pretty ./",
     "verify": "npm run lint"
   },
