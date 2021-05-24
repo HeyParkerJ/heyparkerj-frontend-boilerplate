@@ -12,7 +12,7 @@ module.exports = {
   "plugins": [
     'prettier', 'testing-library', 'jest-dom'
   ],
-  "extends": ['airbnb', 'airbnb/hooks', 'prettier', 'prettier/react', 'plugin:import/errors', 'plugin:testing-library/react', 'plugin:jest-dom/recommended'],
+  "extends": ['airbnb', 'airbnb/hooks', 'prettier', 'plugin:import/errors', 'plugin:testing-library/react', 'plugin:jest-dom/recommended'],
   "settings": {
     "import/resolver": {
       "node": {
